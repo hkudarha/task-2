@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/photos/view-from-below-on-a-pink-modern-house-and-sky-vintage-pastel-colors-picture-id1151230551?b=1&k=20&m=1151230551&s=170667a&w=0&h=48E6ErM5DcsJfzb9AqAJb21dbEWc66TvvWsH71D7Wgg=);
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+#nav{
+    /* position: absolute; */
+    position: relative;
+    /* background-color:green; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+#nav h5{
+      display: flex;
+    /* background-color: rgb(219, 209, 209); */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+#nlinks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    gap: 20px;
+    display: flex;
+}
+#nlinks a{
+    color: white;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+#nlinks a::before{
+    content: " ";
+    width: 40%;
+    height: 2px;
+    position:absolute;
+    background-color: white;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#nav i{
+    display: flex;
+    background-color:white;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+} 
+#center{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    color: white;
+    /* background-color: red; */
+    font-family: gilroy;
+}
+#cttext{
+    display: flex;
+}
+#cttext h4{
+    font-size: 18px;
+}
+#cttext h6{
+    font-weight: 500;
+    margin-top: 2px;
+}
+#center h1{
+    position: absolute;
+    font-size: 80px;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+#cbtm {
+    display: flex;
+    position: absolute;
+    top: 110%;
+    width: 100%;
+}
+#cbtm #line{
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    margin-top: 8px;
+    margin-right: 50px;
+}
+#cbtm p{
+    line-height: 25px;
+    font-weight: 400;
+}
+#bottom{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 20%;
+    background-color: white;
+    bottom: 0;
+    font-family: gilroy;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+#bottom .btext h4{
+    font-size: 16px;
+    font-weight: 900;
+}
+#bottom .btext h5{
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+#plus{
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#plus i{
+  font-size:20px;
+}
